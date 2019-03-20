@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^weforensicate\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.weforensicate\.org$
+RewriteRule ^/?$ "http\:\/\/weforensicate\.com\/" [R=301,L]
+
